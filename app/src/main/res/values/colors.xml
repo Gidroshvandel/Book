@@ -7,4 +7,43 @@
     <color name="text_shadow">#7F000000</color>
     <color name="light_font">#FBFBFB</color>
     <color name="news">#b9c3fc</color>
+
+    <item name="red" type="color">#d50000</item>
+    <item name="pink" type="color">#c51162</item>
+    <item name="purple" type="color">#aa00ff</item>
+    <item name="deepPurple" type="color">#6200ea</item>
+    <item name="indigo" type="color">#304ffe</item>
+    <item name="blue" type="color">#2962ff</item>
+    <item name="lightBlue" type="color">#2962ff</item>
+    <item name="cyan" type="color">#00b8d4</item>
+    <item name="teal" type="color">#00bfa5</item>
+    <item name="green" type="color">#00c853</item>
+    <item name="lightGreen" type="color">#64dd17</item>
+    <item name="lime" type="color">#aeea00</item>
+    <item name="yellow" type="color">#ffd600</item>
+    <item name="amber" type="color">#ffab00</item>
+    <item name="orange" type="color">#ff6d00</item>
+    <item name="deepOrange" type="color">#dd2c00</item>
+    <item name="brown" type="color">#5d4037</item>
+    <item name="grey" type="color">#616161</item>
+    <item name="blueGrey" type="color">#455a64</item>
+
+
+    <integer-array name="categoryPalette">
+        <item>@color/pink</item>
+        <item>@color/purple</item>
+        <item>@color/deepPurple</item>
+        <item>@color/indigo</item>
+        <item>@color/blue</item>
+        <item>@color/lightBlue</item>
+        <item>@color/cyan</item>
+        <item>@color/teal</item>
+        <item>@color/green</item>
+        <item>@color/lightGreen</item>
+        <item>@color/lime</item>
+        <item>@color/yellow</item>
+        <item>@color/amber</item>
+        <item>@color/orange</item>
+    </integer-array>
+
 </resources>

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/news">
+    android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -28,42 +27,39 @@
                 android:layout_marginTop="12dp"
                 android:id="@+id/news_one"
                 android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:background="@color/news">
+                android:layout_height="140dp">
 
                 <ImageView
-                    android:id="@+id/birthday"
+                    android:id="@+id/image_one"
                     android:layout_width="160dp"
                     android:layout_height="match_parent"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/image_birthday">
+                    android:src="@drawable/book_films">
 
                 </ImageView>
 
                 <TextView
-                    android:id="@+id/birthday_cap"
+                    android:id="@+id/textOne_Caption"
                     style="@style/textNewsStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_toLeftOf="@id/birthday"
-                    android:layout_toStartOf="@id/birthday"
+                    android:layout_toRightOf="@id/image_one"
                     android:paddingLeft="16sp"
                     android:paddingRight="16sp"
-                    android:text="@string/birthday" />
+                    android:text="@string/bookFilms" />
 
                 <TextView
-                    android:id="@+id/birthday_text"
+                    android:id="@+id/textOne"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/birthday_cap"
-                    android:layout_toLeftOf="@id/birthday"
-                    android:layout_toStartOf="@id/birthday"
+                    android:layout_below="@id/textOne_Caption"
+                    android:layout_toRightOf="@id/image_one"
                     android:paddingLeft="20sp"
                     android:paddingRight="16sp"
                     android:paddingTop="4dp"
-                    android:text="@string/birthday_text" />
+                    android:text="@string/bookFilms_text" />
 
             </RelativeLayout>
 
@@ -71,82 +67,79 @@
                 android:layout_marginTop="12dp"
                 android:id="@+id/news_two"
                 android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:background="@color/news">
+                android:layout_height="140dp">
 
                 <ImageView
-                    android:id="@+id/image"
+                    android:id="@+id/image_two"
                     android:layout_width="160dp"
                     android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/two_one">
+                    android:src="@drawable/star_wars">
 
                 </ImageView>
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textTwo_Caption"
                     style="@style/textNewsStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/image"
+                    android:layout_toRightOf="@id/image_two"
                     android:paddingLeft="16sp"
                     android:paddingRight="16sp"
-                    android:text="@string/two_one" />
+                    android:text="@string/starWars" />
 
                 <TextView
-                    android:id="@+id/textViewq"
+                    android:id="@+id/textTwo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/textView"
-                    android:layout_toRightOf="@id/image"
+                    android:layout_below="@id/textTwo_Caption"
+                    android:layout_toRightOf="@id/image_two"
                     android:paddingLeft="20sp"
                     android:paddingRight="16sp"
                     android:paddingTop="4dp"
-
-                    android:text="@string/two_one_text" />
+                    android:text="@string/starWars_text" />
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:layout_marginTop="12dp"
-                android:id="@+id/news_tree"
+                android:id="@+id/news_three"
                 android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:background="@color/news">
+                android:layout_height="140dp">
 
                 <ImageView
-                    android:id="@+id/image3"
+                    android:id="@+id/image_three"
                     android:layout_width="160dp"
                     android:layout_height="match_parent"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/snow">
+                    android:src="@drawable/brodsky">
 
                 </ImageView>
 
                 <TextView
-                    android:id="@+id/text3"
+                    android:id="@+id/textThree_Caption"
                     style="@style/textNewsStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_toLeftOf="@id/image3"
+                    android:layout_toRightOf="@id/image_three"
                     android:paddingLeft="16sp"
                     android:paddingRight="16sp"
-                    android:text="@string/snow" />
+                    android:text="@string/brodsky" />
 
                 <TextView
-                    android:id="@+id/text3_view"
+                    android:id="@+id/textThree"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_toLeftOf="@id/image3"
-                    android:layout_below="@id/text3"
+                    android:layout_below="@id/textThree_Caption"
+                    android:layout_toRightOf="@id/image_three"
                     android:paddingLeft="20sp"
                     android:paddingRight="16sp"
                     android:paddingTop="4dp"
-                    android:text="@string/snow_text" />
+                    android:text="@string/brodsky_text" />
 
             </RelativeLayout>
 
@@ -154,40 +147,39 @@
                 android:layout_marginTop="12dp"
                 android:id="@+id/news_four"
                 android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:background="@color/news">
+                android:layout_height="140dp">
 
                 <ImageView
-                    android:id="@+id/image4"
+                    android:id="@+id/image_four"
                     android:layout_width="160dp"
                     android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/hot">
+                    android:src="@drawable/love_art">
 
                 </ImageView>
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/textFour_Caption"
                     style="@style/textNewsStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/image4"
+                    android:layout_toRightOf="@id/image_four"
                     android:paddingLeft="16sp"
                     android:paddingRight="16sp"
-                    android:text="@string/two_one" />
+                    android:text="@string/loveArt" />
 
                 <TextView
-                    android:id="@+id/text_View4"
+                    android:id="@+id/textFour"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/image4"
-                    android:layout_below="@id/textView4"
+                    android:layout_below="@id/textFour_Caption"
+                    android:layout_toRightOf="@id/image_four"
                     android:paddingLeft="20sp"
                     android:paddingRight="16sp"
-                    android:layout_marginTop="4dp"
-                    android:text="@string/two_one_text" />
+                    android:paddingTop="4dp"
+                    android:text="@string/loveArt_text" />
 
             </RelativeLayout>
         </LinearLayout>

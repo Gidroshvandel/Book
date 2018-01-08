@@ -14,7 +14,7 @@
         <item name="android:shadowDy">2</item>
         <item name="android:shadowRadius">6</item>
         <item name="android:textSize">30sp</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/secondary_text_light_nodisable</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -24,7 +24,7 @@
         <item name="android:shadowDy">2</item>
         <item name="android:shadowRadius">6</item>
         <item name="android:textSize">22sp</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/holo_blue_light</item>
         <item name="android:textStyle">bold</item>
     </style>
 

@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/about"/>
+        android:src="@drawable/general"/>
 
     <TextView
         style="@style/textMenuStyle"
@@ -18,26 +18,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
-        android:text="Ресторан авторской кухни"/>
+        android:text="Магазин эксклюзивных книг"/>
 
     <TextView
         style="@style/textMenuStyle"
-        android:text="Марка"
+        android:text="Литера"
         android:textSize="60sp"
         android:textStyle="bold|italic"
-        android:gravity="center"
-        android:layout_centerInParent="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:padding="16dp"
-        style="@style/textMenuStyle"
-        android:text="Попробуй удовольствие на вкус"
-        android:textSize="18sp"
         android:gravity="end"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <!--<TextView-->
+        <!--android:padding="16dp"-->
+        <!--style="@style/textMenuStyle"-->
+        <!--android:text="Попробуй удовольствие на вкус"-->
+        <!--android:textSize="18sp"-->
+        <!--android:gravity="end"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
 
 </RelativeLayout>

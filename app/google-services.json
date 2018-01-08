@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "532166821637",
-    "firebase_url": "https://restaurant-e3401.firebaseio.com",
-    "project_id": "restaurant-e3401",
-    "storage_bucket": "restaurant-e3401.appspot.com"
+    "project_number": "404188407710",
+    "firebase_url": "https://book-bad54.firebaseio.com",
+    "project_id": "book-bad54",
+    "storage_bucket": "book-bad54.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:532166821637:android:07fa78191ab5cde8",
+        "mobilesdk_app_id": "1:404188407710:android:a4aa5d7f27f578c3",
         "android_client_info": {
-          "package_name": "com.mycompany.restaurant"
+          "package_name": "com.mycompany.book"
         }
       },
       "oauth_client": [
         {
-          "client_id": "532166821637-c2js7sf5va57hubt3ru2ohgjf4pbnsfq.apps.googleusercontent.com",
+          "client_id": "404188407710-mb2emmbfqnarr3po10n0kekakgggfllr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDkFQrkLjSrDulKzmRTAjMO2xJhI8_3FYc"
+          "current_key": "AIzaSyBZKLRnfLKfUFPibpSHqy3EXo0W783kVR8"
         }
       ],
       "services": {
